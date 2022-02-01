@@ -1,0 +1,391 @@
+#### "*******************************************"
+#### "*          ..:: A U T H O R ::..           *"
+#### "*             << oscam server >>             *"
+#### "*           ..:: KARIM&MOHAMED ::..             *"
+#### "*******************************************"
+
+
+[reader]
+label                         = emulator
+enable                        = 1
+protocol                      = emu
+device                        = emulator
+device                        = https://raw.githubusercontent.com/MOHAMED19OS/SoftCam_Emu/main/Enigma2/SoftCam.Key
+caid                          = 0500,0604,090F,0E00,1010,1801,2600,2602,2610,4AE1
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 4
+emmcache                      = 2,1,2,1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,0000FE
+
+[reader]
+label                  = top1.supercline.net_d6super32919
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32919
+password               = hassan00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32920
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32920
+password               = jazair01
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32921
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32921
+password               = mohcen02
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32922
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32922
+password               = hassan03
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32923
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32923
+password               = jazair01
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32925
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32925
+password               = jazair00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32927
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32927
+password               = mohcen02
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32929
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32929
+password               = jazair02
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+[reader]
+label                  = fast.ccamplus.net_zhd019
+enable                 = 1
+protocol               = cccam
+device                 = fast.ccamplus.net,18805
+user                   = zhd019
+password               = jazair
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = fast.ccamplus.net_zhd020
+enable                 = 1
+protocol               = cccam
+device                 = fast.ccamplus.net,18805
+user                   = zhd020
+password               = jazair
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = fast.ccamplus.net_zhd021
+enable                 = 1
+protocol               = cccam
+device                 = fast.ccamplus.net,18805
+user                   = zhd021
+password               = jazair
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = fast.ccamplus.net_zhd022
+enable                 = 1
+protocol               = cccam
+device                 = fast.ccamplus.net,18805
+user                   = zhd022
+password               = jazair
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+[reader]
+label                  = top1.supercline.net_d6super32908
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32908
+password               = jazair02
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32909
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32909
+password               = jazair01
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32910
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32910
+password               = hassan03
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32911
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32911
+password               = hassan01
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32912
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32912
+password               = mohcen00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32913
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32913
+password               = hassan01
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = top1.supercline.net_d6super32914
+enable                 = 1
+protocol               = cccam
+device                 = top1.supercline.net,18801
+user                   = d6super32914
+password               = hassan01
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam1012
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18801
+user                   = 8vcam1012
+password               = jazair03
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam1013
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18801
+user                   = 8vcam1013
+password               = jazair02
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam1014
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18801
+user                   = 8vcam1014
+password               = mohcen00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam1547
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18802
+user                   = 8vcam1547
+password               = mohcen03
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam1549
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18802
+user                   = 8vcam1549
+password               = mohcen02
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam1550
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18802
+user                   = 8vcam1550
+password               = hassan00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam1551
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18802
+user                   = 8vcam1551
+password               = hassan00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam2011
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18803
+user                   = 8vcam2011
+password               = mohcen00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam2012
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18803
+user                   = 8vcam2012
+password               = jazair00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = v6.8safenine.xyz_8vcam2013
+enable                 = 1
+protocol               = cccam
+device                 = v6.8safenine.xyz,18803
+user                   = 8vcam2013
+password               = hassan00
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
